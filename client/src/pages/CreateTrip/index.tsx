@@ -1,9 +1,9 @@
 import { FormEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { InviteGuestsModal } from '../../components/Modals/InviteGuestsModal';
-import { ConfirmTripModal } from '../../components/Modals/ConfirmTripModal';
-import { DestinationAndDataStep } from '../../components/Steps/DestinationAndDataStep';
-import { InviteGuestsStep } from '../../components/Steps/InviteGuestsStep';
+import { InviteGuestsModal } from '../../components/CreateTrip/Modals/InviteGuestsModal';
+import { ConfirmTripModal } from '../../components/CreateTrip/Modals/ConfirmTripModal';
+import { DestinationAndDataStep } from '../../components/CreateTrip/Steps/DestinationAndDataStep';
+import { InviteGuestsStep } from '../../components/CreateTrip/Steps/InviteGuestsStep';
 
 export function CreateTripPage() {
     const navigate = useNavigate();
@@ -57,9 +57,7 @@ export function CreateTripPage() {
     }
 
     function removeEmailFromInvites(emailToRemove: string) {
-        const newEmailList = emailsToInvite.filter(
-            (email) => email !== emailToRemove
-        );
+        const newEmailList = emailsToInvite.filter((email) => email !== emailToRemove);
 
         setEmailsToInvite(newEmailList);
     }
@@ -94,8 +92,7 @@ export function CreateTripPage() {
                     )}
                 </div>
                 <p className="text-sm text-zinc-500">
-                    Ao planejar sua viagem pela plann.er você automaticamente
-                    concorda <br />
+                    Ao planejar sua viagem pela plann.er você automaticamente concorda <br />
                     com nossos{' '}
                     <a href="#" className="text-zinc-300 underline">
                         termos de uso
