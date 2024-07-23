@@ -3,6 +3,8 @@ import dayjs from 'dayjs';
 import type { FastifyInstance } from 'fastify';
 import type { ZodTypeProvider } from 'fastify-type-provider-zod';
 import { prisma } from '../lib/prisma';
+import { getMailClient } from '../lib/mail';
+import nodemailer from 'nodemailer';
 
 export async function createTrip(app: FastifyInstance) {
     app.withTypeProvider<ZodTypeProvider>().post(
@@ -13,11 +15,13 @@ export async function createTrip(app: FastifyInstance) {
                     destination: z.string().min(4),
                     starts_at: z.coerce.date(),
                     ends_at: z.coerce.date(),
+                    owner_name: z.string(),
+                    owner_email: z.string().email(),
                 }),
             },
         },
         async (request) => {
-            const { destination, starts_at, ends_at } = request.body;
+            const { destination, starts_at, ends_at, owner_name, owner_email } = request.body;
 
             if (dayjs(starts_at).isBefore(new Date())) {
                 throw new Error('Invalid trip start date.');
@@ -34,6 +38,23 @@ export async function createTrip(app: FastifyInstance) {
                     ends_at,
                 },
             });
+
+            const mail = await getMailClient();
+
+            const message = await mail.sendMail({
+                from: {
+                    name: 'Equipe plann.er',
+                    address: 'contato@planner.com',
+                },
+                to: {
+                    name: owner_name,
+                    address: owner_email,
+                },
+                subject: 'Testando o envio de e-mail',
+                html: '<p>Teste do envio de e-mail</p>',
+            });
+
+            console.log(nodemailer.getTestMessageUrl(message));
 
             return { tripId: trip.id };
         }
