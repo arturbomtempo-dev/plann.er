@@ -14,8 +14,8 @@ import { getParticipant } from './routes/get-participant';
 import { getParticipants } from './routes/get-participants';
 import { getTripDetails } from './routes/get-trip-details';
 import { updateTrip } from './routes/update-trip';
+import { env } from './env';
 
-const PORT = Number(process.env.PORT) || 3000;
 const app = fastfy();
 
 app.register(cors, {
@@ -39,6 +39,6 @@ app.register(updateTrip);
 app.register(getTripDetails);
 app.register(getParticipant);
 
-app.listen({ port: PORT }).then(() => {
-    console.log(`Server is running on port ${PORT}`);
+app.listen({ port: env.PORT }).then(() => {
+    console.log(`Server is running on port ${env.PORT}`);
 });
