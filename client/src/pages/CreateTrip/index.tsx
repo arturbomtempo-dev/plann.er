@@ -5,6 +5,7 @@ import { ConfirmTripModal } from '../../components/CreateTrip/Modals/ConfirmTrip
 import { InviteGuestsModal } from '../../components/CreateTrip/Modals/InviteGuestsModal';
 import { DestinationAndDataStep } from '../../components/CreateTrip/Steps/DestinationAndDataStep';
 import { InviteGuestsStep } from '../../components/CreateTrip/Steps/InviteGuestsStep';
+import { api } from '../../lib/axios';
 
 export function CreateTripPage() {
     const navigate = useNavigate();
@@ -69,7 +70,7 @@ export function CreateTripPage() {
         setEmailsToInvite(newEmailList);
     }
 
-    function createTrip(event: FormEvent<HTMLFormElement>) {
+    async function createTrip(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
 
         console.log(destination);
@@ -78,7 +79,34 @@ export function CreateTripPage() {
         console.log(ownerName);
         console.log(ownerEmail);
 
-        //navigate('/trips/123');
+        if (!destination) {
+            return;
+        }
+
+        if (!eventStartAndEndDates?.from || !eventStartAndEndDates?.to) {
+            return;
+        }
+
+        if (emailsToInvite.length === 0) {
+            return;
+        }
+
+        if (!ownerName || !ownerEmail) {
+            return;
+        }
+
+        const response = await api.post('/trips', {
+            destination: destination,
+            starts_at: eventStartAndEndDates.from,
+            ends_at: eventStartAndEndDates.to,
+            emails_to_invite: emailsToInvite,
+            owner_name: ownerName,
+            owner_email: ownerEmail,
+        });
+
+        const { tripId } = response.data;
+
+        navigate(`/trips/${tripId}`);
     }
 
     return (
