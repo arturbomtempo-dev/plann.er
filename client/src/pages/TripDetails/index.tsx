@@ -1,11 +1,11 @@
 import { Plus } from 'lucide-react';
 import { useState } from 'react';
-import { CreateActivityModal } from '../../components/TripDetails/CreateActivityModal';
-import { ImportantLinks } from '../../components/TripDetails/ImportantLinks';
-import { Guests } from '../../components/TripDetails/Guests';
-import { Activities } from '../../components/TripDetails/Activities';
-import { DestinationAndDataHeader } from '../../components/TripDetails/DestinationAndDataHeader';
 import { Button } from '../../components/Common/Button';
+import { Activities } from '../../components/TripDetails/Activities';
+import { CreateActivityModal } from '../../components/TripDetails/CreateActivityModal';
+import { DestinationAndDataHeader } from '../../components/TripDetails/DestinationAndDataHeader';
+import { Guests } from '../../components/TripDetails/Guests';
+import { ImportantLinks } from '../../components/TripDetails/ImportantLinks';
 
 export function TripDetailsPage() {
     const [isCreateActivityModalOpen, setIsCreateActivityModalOpen] = useState(false);
