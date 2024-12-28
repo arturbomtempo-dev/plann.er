@@ -43,11 +43,11 @@ export async function confirmTrip(app: FastifyInstance) {
             }
 
             await prisma.trip.update({
-                where: { 
-                    id: tripId
+                where: {
+                    id: tripId,
                 },
-                data: { 
-                    is_confirmed: true 
+                data: {
+                    is_confirmed: true,
                 },
             });
 
