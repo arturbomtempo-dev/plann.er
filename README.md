@@ -18,6 +18,8 @@
     <a href="https://github.com/SpaceForDevelopment/Convert2Base-Package/blob/main/LICENSE.md" target="_blank"><img src="https://img.shields.io/badge/license-MIT-red" alt="MIT License"></a>
 </div>
 
+<div id="table-of-contents"></div>
+
 ## 📋 Table of Contents
 
 -   [About](#about)
@@ -28,6 +30,8 @@
 -   [Technologies](#technologies)
 -   [Author](#author)
 -   [License](#license)
+
+<div id="features"></div>
 
 ## 📝 Features
 
@@ -44,6 +48,8 @@ All API routes for the listed features have been fully developed and are functio
 -   [ ] Manage registered guests
 -   [ ] Registration of important travel links
 -   [ ] Listing of important travel links
+
+<div id="application-demonstration"></div>
 
 ## 📲 Application Demonstration
 
@@ -64,6 +70,8 @@ Below, you will find example images of the application’s front-end, showcasing
 -   Register Trip Activity
 
 ![Register Trip Activity](./resources/screenshots//register-activity.png)
+
+<div id="setup-and-run-the-application"></div>
 
 ## 📁 Setup and Run the Application
 
@@ -114,20 +122,24 @@ $ npm run dev
 # The server will start on port 3333 - it should log `Server is running on port 3333`
 ```
 
+<div id="technologies"></div>
+
 ## 💻 Technologies
 
-The following tools were used in the development of this project:
+The following tools and frameworks were used in the development of this project:
 
--   [Node.js](https://nodejs.org/docs/latest/api/)
--   [TypeScript](https://www.typescriptlang.org/docs/)
--   [React.js](https://react.dev/learn)
--   [Axios](https://axios-http.com/docs/intro)
--   [Tailwind CSS](https://v2.tailwindcss.com/docs)
--   [Fastify](https://fastify.dev/docs/latest/)
--   [Prisma](https://www.prisma.io/docs)
--   [Nodemailer](https://www.nodemailer.com/)
--   [Day.js](https://day.js.org/docs/en/display/format)
--   [Zod](https://zod.dev/)
+-   [**Node.js**](https://nodejs.org/docs/latest/api): A JavaScript runtime that allows the development of scalable and high-performance server-side applications.
+-   [**TypeScript**](https://www.typescriptlang.org/docs): A strongly typed programming language that builds on JavaScript, adding static types and improving code quality.
+-   [**React.js**](https://react.dev/learn): A popular JavaScript library for building interactive and component-based user interfaces.
+-   [**Axios**](https://axios-http.com/docs/intro): A promise-based HTTP client for making API requests, with built-in support for interceptors and error handling.
+-   [**Tailwind CSS**](https://v2.tailwindcss.com/docs): A utility-first CSS framework for rapidly styling modern user interfaces.
+-   [**Fastify**](https://fastify.dev/docs/latest): A fast and low-overhead web framework for building APIs and back-end services in Node.js.
+-   [**Prisma**](https://www.prisma.io/docs): An ORM (Object-Relational Mapper) for managing database schema and queries with a focus on developer productivity.
+-   [**Nodemailer**](https://www.nodemailer.com): A tool for sending emails from Node.js applications, supporting multiple transport methods.
+-   [**Day.js**](https://day.js.org/docs/en/display/format): A lightweight library for parsing, validating, manipulating, and formatting dates.
+-   [**Zod**](https://zod.dev): A schema validation library for defining and validating the shape of data, commonly used in APIs and forms.
+
+<div id="author"></div>
 
 ## 👨🏻‍💻 Author
 
@@ -141,6 +153,8 @@ Developed by Artur Bomtempo 👋🏽. Get in touch:
 [![Gmail Badge](https://img.shields.io/badge/-arturbcolen@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:arturbcolen@gmail.com)](mailto:arturbcolen@gmail.com)
 [![LinkedIn Badge](https://img.shields.io/badge/-Artur%20Bomtempo-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/artur-bomtempo/)](https://www.linkedin.com/in/artur-bomtempo/)
 [![Instagram Badge](https://img.shields.io/badge/-@arturbomtempo.dev-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/arturbomtempo.dev/)](https://www.instagram.com/arturbomtempo.dev/)
+
+<div id="license"></div>
 
 ## 📜 License
 
