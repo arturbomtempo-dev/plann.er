@@ -18,8 +18,6 @@
     <a href="https://github.com/SpaceForDevelopment/Convert2Base-Package/blob/main/LICENSE.md" target="_blank"><img src="https://img.shields.io/badge/license-MIT-red" alt="MIT License"></a>
 </div>
 
-<a id="table-of-contents"></a>
-
 ## 📋 Table of Contents
 
 -   [About](#about)
@@ -30,8 +28,6 @@
 -   [Technologies](#technologies)
 -   [Author](#author)
 -   [License](#license)
-
-<a id="features"></a>
 
 ## 📝 Features
 
@@ -48,8 +44,6 @@ All API routes for the listed features have been fully developed and are functio
 -   [ ] Manage registered guests
 -   [ ] Registration of important travel links
 -   [ ] Listing of important travel links
-
-<a id="application-demonstration"></a>
 
 ## 📲 Application Demonstration
 
@@ -70,8 +64,6 @@ Below, you will find example images of the application’s front-end, showcasing
 -   Register Trip Activity
 
 ![Register Trip Activity](./resources/screenshots//register-activity.png)
-
-<a id="setup-and-run-the-application"></a>
 
 ## 📁 Setup and Run the Application
 
@@ -122,8 +114,6 @@ $ npm run dev
 # The server will start on port 3333 - it should log `Server is running on port 3333`
 ```
 
-<a id="technologies"></a>
-
 ## 💻 Technologies
 
 The following tools were used in the development of this project:
@@ -139,8 +129,6 @@ The following tools were used in the development of this project:
 -   [Day.js](https://day.js.org/docs/en/display/format)
 -   [Zod](https://zod.dev/)
 
-<a id="author"></a>
-
 ## 👨🏻‍💻 Author
 
 ---
@@ -153,8 +141,6 @@ Developed by Artur Bomtempo 👋🏽. Get in touch:
 [![Gmail Badge](https://img.shields.io/badge/-arturbcolen@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:arturbcolen@gmail.com)](mailto:arturbcolen@gmail.com)
 [![LinkedIn Badge](https://img.shields.io/badge/-Artur%20Bomtempo-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/artur-bomtempo/)](https://www.linkedin.com/in/artur-bomtempo/)
 [![Instagram Badge](https://img.shields.io/badge/-@arturbomtempo.dev-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/arturbomtempo.dev/)](https://www.instagram.com/arturbomtempo.dev/)
-
-<a id="license"></a>
 
 ## 📜 License
 
