@@ -18,9 +18,9 @@
     <a href="https://github.com/SpaceForDevelopment/Convert2Base-Package/blob/main/LICENSE.md" target="_blank"><img src="https://img.shields.io/badge/license-MIT-red" alt="MIT License"></a>
 </div>
 
-## 📋 Table of Contents
-
 <a id="table-of-contents"></a>
+
+## 📋 Table of Contents
 
 -   [About](#about)
 -   [Table of Contents](#table-of-contents)
@@ -29,10 +29,11 @@
 -   [Setup and Run the Application](#setup-and-run-the-application)
 -   [Technologies](#technologies)
 -   [Author](#author)
-
-## 📝 Features
+-   [License](#license)
 
 <a id="features"></a>
+
+## 📝 Features
 
 All API routes for the listed features have been fully developed and are functional. However, as this project is for educational purposes, some features were not implemented in the front-end during the course and currently have no timeline for implementation. Below is a detailed list of the features, indicating which ones have been implemented and which ones remain unavailable on the front-end.
 
@@ -48,9 +49,9 @@ All API routes for the listed features have been fully developed and are functio
 -   [ ] Registration of important travel links
 -   [ ] Listing of important travel links
 
-## 📲 Application Demonstration
-
 <a id="application-demonstration"></a>
+
+## 📲 Application Demonstration
 
 Below, you will find example images of the application’s front-end, showcasing its main screens and highlighting its interface and core functionalities. Additionally, you can access the API documentation for detailed information about the available routes. To view the documentation, [click here](https://nlw-journey.apidocumentation.com/reference).
 
@@ -70,9 +71,9 @@ Below, you will find example images of the application’s front-end, showcasing
 
 ![Register Trip Activity](./resources/screenshots//register-activity.png)
 
-## 📁 Setup and Run the Application
-
 <a id="setup-and-run-the-application"></a>
+
+## 📁 Setup and Run the Application
 
 ### ⚙️ Prerequisites
 
@@ -121,9 +122,9 @@ $ npm run dev
 # The server will start on port 3333 - it should log `Server is running on port 3333`
 ```
 
-## 💻 Technologies
-
 <a id="technologies"></a>
+
+## 💻 Technologies
 
 The following tools were used in the development of this project:
 
@@ -138,9 +139,9 @@ The following tools were used in the development of this project:
 -   [Day.js](https://day.js.org/docs/en/display/format)
 -   [Zod](https://zod.dev/)
 
-## 👨🏻‍💻 Author
-
 <a id="author"></a>
+
+## 👨🏻‍💻 Author
 
 ---
 
@@ -152,3 +153,27 @@ Developed by Artur Bomtempo 👋🏽. Get in touch:
 [![Gmail Badge](https://img.shields.io/badge/-arturbcolen@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:arturbcolen@gmail.com)](mailto:arturbcolen@gmail.com)
 [![LinkedIn Badge](https://img.shields.io/badge/-Artur%20Bomtempo-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/artur-bomtempo/)](https://www.linkedin.com/in/artur-bomtempo/)
 [![Instagram Badge](https://img.shields.io/badge/-@arturbomtempo.dev-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/arturbomtempo.dev/)](https://www.instagram.com/arturbomtempo.dev/)
+
+<a id="license"></a>
+
+## 📜 License
+
+Copyright (c) 2025 Artur Bomtempo Colen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
