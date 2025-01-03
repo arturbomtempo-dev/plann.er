@@ -1,7 +1,7 @@
 {
     "name": "client",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,6 +10,18 @@
         "preview": "vite preview",
         "format": "prettier --write ."
     },
+    "keywords": [
+        "frontend",
+        "travel",
+        "itinerary",
+        "trip management",
+        "react",
+        "tailwindcss",
+        "vite"
+    ],
+    "author": "Artur Bomtempo Colen",
+    "license": "ISC",
+    "description": "Front-end client for a travel itinerary management platform, built using React, Tailwind CSS, and Vite for a modern, responsive user interface.",
     "dependencies": {
         "axios": "^1.7.9",
         "localforage": "^1.10.0",

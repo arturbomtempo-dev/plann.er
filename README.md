@@ -79,7 +79,7 @@ Below, you will find example images of the application’s front-end, showcasing
 
 Before starting, you need to have the following tools installed on your machine: [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en).
 
-It’s also recommended to use a code editor like [VSCode](https://code.visualstudio.com/).
+It’s also recommended to use a code editor like [Visual Studio Code](https://code.visualstudio.com/).
 
 ### 🚀 How to Run the Application
 
@@ -110,11 +110,11 @@ $ cd server
 # Install dependencies
 $ npm install
 
-# Create the database file
-$ npx prisma db push
-
 # Copy the contents of the .env.example file to a new .env file
 $ cp .env.example .env
+
+# Create the database file
+$ npx prisma db push
 
 # Run the server in development mode
 $ npm run dev

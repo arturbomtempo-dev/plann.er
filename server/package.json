@@ -6,10 +6,18 @@
         "dev": "tsx watch ./src/server.ts",
         "format": "prettier --write ."
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "api",
+        "trip",
+        "travel",
+        "itinerary",
+        "management",
+        "schedule",
+        "participants"
+    ],
+    "author": "Artur Bomtempo Colen",
     "license": "ISC",
-    "description": "",
+    "description": "Back-end API for managing travel itineraries, activities, and participants, offering a structured system for trip scheduling and tracking.",
     "devDependencies": {
         "@types/node": "^20.14.11",
         "@types/nodemailer": "^6.4.15",
