@@ -145,8 +145,8 @@ The following tools were used in the development of this project:
 
 ---
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/96635074?v=4" width=115><br><sub>Artur Bomtempo</sub>](https://github.com/ArturColen) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/96635074?v=4" width=115><br><sub>Artur Bomtempo</sub>](https://arturbomtempo.dev/) |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 Developed by Artur Bomtempo 👋🏽. Get in touch:
 
